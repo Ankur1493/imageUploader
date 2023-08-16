@@ -1,0 +1,59 @@
+.uploadSection{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    border: 1px solid rgb(223, 220, 243);
+    margin: auto;
+    margin-top: 15vh;
+    box-shadow: 0 2px 15px rgba(0,0,0,.2);
+}
+
+.uploadSection .info{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadSection .info .headLine{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.uploadSection .uploadImg{
+    border: 2px dashed #ccc;
+    height: 250px;
+    width: 330px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.uploadSection .uploadImg img{
+    height: 200px;
+    width: 200px;
+}
+
+.uploadSection .buttons{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.uploadSection .buttons .btns{
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    transition: background-color .3s ease;
+}
+.uploadSection .buttons .btns:hover{
+    background-color: #025fc3;
+}
